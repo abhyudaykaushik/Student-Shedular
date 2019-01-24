@@ -6,9 +6,20 @@
         <h1 style="text-align: center">Welcome Dean</h1>
         
         <div style="width: 30%; margin: 25px auto">
-            <form action="/landing" method="POST">
+            <form action="/data" method="POST">
                 
-                <input type="checkbox" id="switch"><label for="switch">Toggle</label>
+                <div style="width: 30%; margin: 25px auto">
+                    <h1>Status</h1><input type="checkbox" id="switch" name="dswitch"><label for="switch">Toggle</label>
+                </div>
+                
+                
+                <br><br><br><br>
+                
+                <div>
+                  <h2>Comment!</h2><input type="textarea" style="height:70px; width:400px;" name="dcomment">
+                </div>
+                
+                <br><br><br><br>
                 
                 <div class="form-group">
                     <button class="btn btn-lg btn-primary btn-block">Sign Up!</button>
