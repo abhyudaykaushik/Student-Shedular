@@ -1,0 +1,25 @@
+{
+  "name": "Runtime",
+  "version": "1.0.0",
+  "description": "We are here to save your time",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/Pushpamk/Tech_Rangers",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Pratik,Pushpam,Ashish and Abhyuday",
+  "license": "",
+  "devDependencies": {
+    "electron": "^4.0.1"
+  },
+  "dependencies": {
+    "electron-packager": "^13.0.1"
+  }
+}
