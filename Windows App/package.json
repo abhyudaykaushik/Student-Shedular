@@ -17,7 +17,7 @@
   "author": "Pratik,Pushpam,Ashish and Abhyuday",
   "license": "",
   "devDependencies": {
-    "electron": "^4.0.1"
+    "electron": "^18.3.7"
   },
   "dependencies": {
     "electron-packager": "^13.0.1"
